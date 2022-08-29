@@ -1,0 +1,7 @@
+NRPS	NRPS NRPS-like NRPS,NRPS-like,T1PKS NRPS,T1PKS NRPS-like,T1PKS NRPS,NRPS-like NRPS,betalactone,microviridin NRPS,T1PKS,betalactone NRPS,PKS-like,T1PKS,T3PKS,transAT-PKS NRPS,NRPS-like,T1PKS,microviridin NRPS-like,lanthipeptide-class-ii,proteusin NRPS-like,transAT-PKS-like NRPS-like,T1PKS,lanthipeptide-class-ii NRPS-like,transAT-PKS NRPS-like,T1PKS,transAT-PKS NRPS,ectoine NRPS-like,T1PKS,transAT-PKS-like
+PKS I	T1PKS NRPS,NRPS-like,T1PKS NRPS,T1PKS NRPS-like,T1PKS NRPS,T1PKS,betalactone NRPS,PKS-like,T1PKS,T3PKS,transAT-PKS NRPS,NRPS-like,T1PKS,microviridin NRPS-like,T1PKS,lanthipeptide-class-ii NRPS-like,T1PKS,transAT-PKS NRPS-like,T1PKS,transAT-PKS-like
+Terpenes	terpene
+PKS1/NRPS hybrids	NRPS,NRPS-like,T1PKS NRPS,T1PKS NRPS-like,T1PKS
+RiPPs	lanthipeptide-class-v microviridin thioamitides LAP RRE-containing proteusin lanthipeptide-class-ii redox-cofactor RRE-containing,lanthipeptide-class-v,spliceotide RRE-containing,spliceotide thioamitides,thiopeptide RiPP-like lanthipeptide-class-ii,proteusin ranthipeptide lassopeptide
+PKS other	T1PKS,hglE-KS NRPS,PKS-like,T1PKS,T3PKS,transAT-PKS T3PKS hglE-KS transAT-PKS-like NRPS-like,transAT-PKS-like NRPS-like,transAT-PKS NRPS-like,T1PKS,transAT-PKS NRPS-like,T1PKS,transAT-PKS-like
+Others	NRPS,betalactone phosphonate betalactone NRPS,betalactone,microviridin NRPS,T1PKS,betalactone NRPS,NRPS-like,T1PKS,microviridin NRPS-like,lanthipeptide-class-ii,proteusin NRPS-like,transAT-PKS-like NRPS-like,T1PKS,lanthipeptide-class-ii NRPS-like,transAT-PKS NRPS-like,T1PKS,transAT-PKS NRPS,ectoine
