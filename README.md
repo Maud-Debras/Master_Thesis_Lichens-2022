@@ -1,5 +1,5 @@
 # Analysis of secondary metabolite biosynthetis gene clusters in lichen metagenomes
-Mémoire de recherche en Bioinformatique, Uliège, 2022.
+[Mémoire de recherche en Bioinformatique, Uliège, 2022.]
 
 Lichens are organisms resulting from the symbiotic association between a fungus and a photosynthetic partner, a green alga or a cyanobacterium. The unique chemical diversity that results from this way of life reveals numerous compounds with various therapeutic interests.
 
