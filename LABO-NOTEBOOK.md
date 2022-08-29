@@ -12,9 +12,7 @@ fastqc 6126-S14_R2-fastp.fastq -t 40
 
 ## Kraken2
 
-
-
-### Script Taxonomic assignment of metagenomic reads
+### Script Taxo reads
 ```javascript=
 #dans LICHENS-2021/
 mkdir KRAKEN_taxo_reads/
@@ -100,7 +98,7 @@ for f in *.fa; do mv $f concoct-bin.$f; done
 find *.fa > ../concoct.list
 cd ../
 ```
-## Identification, completness and contamination
+## Taxonomy
 ### GTDB
 ```javascript=
 gtdbtk classify_wf --genome_dir METABAT-bins/ --out_dir metabat-GTDB -x fa --cpus 40
@@ -110,6 +108,7 @@ cat concoct-GTDB-*/gtdbtk.bac120.summary.tsv > concoct-GTDB-bac120.summary.tsv
 cat concoct-GTDB-ar122.summary.tsv concoct-GTDB-bac120.summary.tsv > CONCOCT-GTDB.tsv
 cat metabat-GTDB/gtdbtk.ar122.summary.tsv metabat-GTDB/gtdbtk.bac120.summary.tsv > METABAT-GTDB.tsv
 ```
+## Quality : completeness & contamination
 ### CheckM
 ```javascript=
 #Checkm
@@ -174,15 +173,6 @@ rm -rf eukcc_*
 rm -rf scaffolds.fasta.metabat-bins*/
 rm -rf quast_results/
 ```
-### Busco
-```
-(pour le lineage mode: busco --list-datasets)
-conda activate busco
-busco -m genome -i LICHENS_2021/bins_cyano/ -o busco_cyanos_sel --auto-lineage --cpu 20 -f
-cd busco_cyanos_sel/:   mkdir BUSCO_summaries
-#copy the BUSCO short summary file from each of the runs you want to plot into this folder: cp XX1/short_summary.*.lineage_odb10.XX1.txt BUSCO_summaries/.
-python3 scripts/generate_plot.py –wd BUSCO_summaries
-```
 
 # Bin refinement
 ## DAS_Tool
@@ -208,7 +198,6 @@ for f in `cat data.ids`;do cp ${f}/DASTool_Run1_DASTool_summary.txt DAST_summary
 ```
 for f in `cat data.ids`;do cd ${f}/;mkdir DASTool_Run;mv DASTool_*.* DASTool_Run/.;cd ../;done
 ```
-
 
 ### Commandes
 ```javascript=
